@@ -4,7 +4,7 @@ version: "3.8"
 services:
 
   webserver:
-    image: nginx:alpine
+    image: nginx:1.21.0-alpine
     ports:
       - 80:80
     volumes:
